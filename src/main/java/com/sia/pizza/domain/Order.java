@@ -6,6 +6,8 @@ import java.util.List;
 
 /**
  * Created by Oleg.Bezkorovaynyi on 31 Aug 2015.
+ *
+ *
  */
 public class Order implements Serializable {
 

@@ -24,6 +24,10 @@ public class Pizza {
         this.size = size;
     }
 
+    public void setSize(String sizeString) {
+        this.size = PizzaSize.valueOf(sizeString);
+    }
+
     public List<Topping> getToppings() {
         return toppings;
     }
