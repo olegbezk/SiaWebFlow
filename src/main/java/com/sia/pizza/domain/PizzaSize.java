@@ -6,5 +6,5 @@ import java.io.Serializable;
  * Created by Oleg.Bezkorovaynyi on 31 Aug 2015.
  */
 public enum PizzaSize implements Serializable {
-    SMALL, MEDIUM, LARGE, GINORMOUS;
+    SMALL, MEDIUM, LARGE, GINORMOUS
 }
