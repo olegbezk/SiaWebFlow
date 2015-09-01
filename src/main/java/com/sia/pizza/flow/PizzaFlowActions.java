@@ -8,10 +8,12 @@ import com.sia.pizza.service.CustomerNotFoundException;
 import com.sia.pizza.service.CustomerService;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 /**
  * Created by Oleg.Bezkorovaynyi on 31 Aug 2015.
  */
+@Component
 public class PizzaFlowActions {
 
     private static final Logger LOGGER = getLogger(PizzaFlowActions.class);
